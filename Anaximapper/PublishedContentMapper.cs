@@ -27,6 +27,7 @@
         /// </summary>
         private static readonly ConcurrentDictionary<string, IList<PropertyInfo>> _settableProperties = new ConcurrentDictionary<string, IList<PropertyInfo>>();
 
+        private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly UmbracoHelper _umbracoHelper;
         private readonly IUserService _userService;
         private readonly IPublishedUrlProvider _publishedUrlProvider;
@@ -43,6 +44,7 @@
             IPublishedValueFallback publishedValueFallback,
             IPropertyValueGetter propertyValueGetter)
         {
+            _httpContextAccessor = httpContextAccessor;
             _umbracoHelper = httpContextAccessor.HttpContext.RequestServices.GetRequiredService<UmbracoHelper>();
             _userService = userService;
             _publishedUrlProvider = publishedUrlProvider;
@@ -593,7 +595,7 @@
                     var mapFromAttribute = GetMapFromAttribute(property);
                     if (mapFromAttribute != null)
                     {
-                        mapFromAttribute.SetPropertyValue(dictionary[propName], property, model, this);
+                        mapFromAttribute.SetPropertyValue(dictionary[propName], property, model, new MappingContext(this, _httpContextAccessor.HttpContext));
                         continue;
                     }
 
@@ -1601,7 +1603,7 @@
                 currentStringValue = GetStringValueOrEmpty(model, property);
             }
             
-            mapFromAttribute.SetPropertyValue(value, property, model, this);
+            mapFromAttribute.SetPropertyValue(value, property, model, new MappingContext(this, _httpContextAccessor.HttpContext));
 
             if (!AreMappingToString(property))
             {

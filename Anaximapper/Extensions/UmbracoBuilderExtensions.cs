@@ -1,8 +1,8 @@
-﻿using Umbraco.Cms.Core.DependencyInjection;
-using Umbraco.Extensions;
-
-namespace Anaximapper.Extensions
+﻿namespace Anaximapper.Extensions
 {
+    using Umbraco.Cms.Core.DependencyInjection;
+    using Umbraco.Extensions;
+
     public static class UmbracoBuilderExtensions
     {
         public static IUmbracoBuilder AddAnaximapper(this IUmbracoBuilder builder)

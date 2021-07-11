@@ -15,7 +15,7 @@
         /// <param name="fromObject">Data from which to obtain the property value</param>
         /// <param name="property">Property which we're setting the value of</param>
         /// <param name="model">Model being populated</param>
-        /// <param name="mapper">Mapper instance</param>
-        void SetPropertyValue<T>(object fromObject, PropertyInfo property, T model, IPublishedContentMapper mapper);
+        /// <param name="context">Context containing references to mapper and HttpContext</param>
+        void SetPropertyValue<T>(object fromObject, PropertyInfo property, T model, MappingContext context);
     }
 }

@@ -129,7 +129,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings 
+# TODO: Comment the next line if you want to checkin your web deploy settings
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
@@ -198,4 +198,10 @@ ExamineIndexes/
 
 # Solution
 Anaximapper.TestSite/
+Anaximapper.TestSite/appsettings.Local.json
+Anaximapper.TestSite/App_Plugins/
+Anaximapper.TestSite/data/
+Anaximapper.TestSite/umbraco/
+Umbraco.Deploy.TestSite-Dev/Views/
+Anaximapper.TestSite/wwwroot/
 

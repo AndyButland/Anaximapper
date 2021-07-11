@@ -11,7 +11,7 @@
 
         public bool SetToEmptyOnFirstResult { get; set; }
 
-        public void SetPropertyValue<T>(object fromObject, PropertyInfo property, T model, IPublishedContentMapper mapper)
+        public void SetPropertyValue<T>(object fromObject, PropertyInfo property, T model, MappingContext context)
         {
             _callCount++;
 
