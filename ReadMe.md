@@ -44,7 +44,7 @@ Build and run.
 
 As things stand Anaximapper is a functionally equivalent port of the original Umbraco Mapper, so I'll defer to the [read me file there](https://github.com/AndyButland/UmbracoMapper) for project documentation, and just note here specific changes for this version.
 
-Various exmaples of usage can be found in the test cases in this repository, either in the unit tests or in the test web application.
+Various examples of usage can be found in the test cases in this repository, either in the unit tests or in the test web application.
 
 ### Changes For Umbraco V9 Support
 
