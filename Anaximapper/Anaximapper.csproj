@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>Anaximapper</AssemblyName>
+    <RootNamespace>Anaximapper</RootNamespace>
+    <ContentTargetFolders>.</ContentTargetFolders>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Anaximapper</PackageId>
+    <Version>1.0.0-beta-1</Version>
+    <Authors>Andy Butland</Authors>
+    <Description>An Umbraco package supporting mapping of IPublishedContent/IPublishedElement to strongly typed view models.</Description>
+    <Copyright>2021 Andy Butland</Copyright>
+    <PackageProjectUrl>https://github.com/AndyButland/Anaximapper/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AndyButland/Anaximapper/</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Umbraco</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Umbraco.Cms.Web.Common" Version="9.0.0-rc001" />
+  </ItemGroup>
+
+</Project>

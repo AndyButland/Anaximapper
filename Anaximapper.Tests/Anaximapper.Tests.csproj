@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>Anaximapper.Tests</AssemblyName>
+    <RootNamespace>Anaximapper.Tests</RootNamespace>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Umbraco.Cms.Tests" Version="9.0.0-rc001" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Anaximapper\Anaximapper.csproj" />
+  </ItemGroup>
+
+</Project>
