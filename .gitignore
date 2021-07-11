@@ -197,7 +197,6 @@ ExamineIndexes/
 */media/created-packages/
 
 # Solution
-Anaximapper.TestSite/
 Anaximapper.TestSite/appsettings.Local.json
 Anaximapper.TestSite/App_Plugins/
 Anaximapper.TestSite/data/
