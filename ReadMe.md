@@ -38,15 +38,21 @@ Make sure Umbraco's models builder functionality is switched off, i.e. in `appSe
     }
 ```
 
-
-
 Build and run.
 
 ## Using Anaximapper
 
 As things stand Anaximapper is a functionally equivalent port of the original Umbraco Mapper, so I'll defer to the [read me file there](https://github.com/AndyButland/UmbracoMapper) for project documentation, and just note here specific changes for this version.
 
+Various exmaples of usage can be found in the test cases in this repository, either in the unit tests or in the test web application.
+
 ### Changes For Umbraco V9 Support
+
+#### Mapping
+
+The main mapping class, defining the `Map()` methods, is available by injecting `IPublishedContentMapper` into your controllers.
+
+#### Working with IMapFromAttribute
 
 The signature of `IMapFromAttribute` has changed, so allow flexibility in accessing services registered with the IoC container.  It now looks like this:
 
