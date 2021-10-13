@@ -204,4 +204,4 @@ Anaximapper.TestSite/umbraco/
 Umbraco.Deploy.TestSite-Dev/Views/
 Anaximapper.TestSite/wwwroot/
 
-deploy.bat
+deploy.ps1
