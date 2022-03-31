@@ -1,0 +1,15 @@
+{
+    "Category": "Developer Tools",
+    "Tags": [
+        "MVC",
+        "mapping"
+    ],
+    "VideoUrl": "https://www.youtube.com/watch?v=zqNTltOGh5c",
+    "Screenshots": [
+        {
+            "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Anaximander_Mosaic_%28cropped%2C_with_sundial%29.jpg/220px-Anaximander_Mosaic_%28cropped%2C_with_sundial%29.jpg",
+            "Caption": "Anaximander - an early mapper"
+        }
+    ],
+    "LicenseType": "Free"
+}

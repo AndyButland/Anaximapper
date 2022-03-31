@@ -66,3 +66,5 @@ The `context` attribute provides access to the mapper as was available before, b
 ## Version History
 
 - 1.0.0-beta-1 - Beta release of port to Umbraco V9.
+- 1.0.0 - Full release of port to Umbraco V9.
+- 1.0.1 - Added tag for Umbraco-Marketplace
