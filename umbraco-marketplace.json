@@ -11,5 +11,16 @@
             "Caption": "Anaximander - an early mapper"
         }
     ],
-    "LicenseType": "Free"
+    "LicenseType": "Free",
+    "RelatedPackages": [
+        {
+            "PackageId": "UmbracoPersonalisationGroups",
+            "Description": "This isn't really related by I need something for testing."
+        },
+        {
+            "PackageId": "Anaximapper",
+            "Description": "Doesn't make much sense to relate to self, but again, test data."
+        }
+    ],
+    "PackagesByAuthor": [ "UmbracoPersonalisationGroups" ]
 }
