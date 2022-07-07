@@ -197,11 +197,15 @@ ExamineIndexes/
 */media/created-packages/
 
 # Solution
-Anaximapper.TestSite/appsettings.Local.json
-Anaximapper.TestSite/App_Plugins/
-Anaximapper.TestSite/data/
-Anaximapper.TestSite/umbraco/
-Umbraco.Deploy.TestSite-Dev/Views/
-Anaximapper.TestSite/wwwroot/
+Anaximapper.TestSite.V9/appsettings.Local.json
+Anaximapper.TestSite.V9/App_Plugins/
+Anaximapper.TestSite.V9/data/
+Anaximapper.TestSite.V9/umbraco/
+Anaximapper.TestSite.V9/wwwroot/
+Anaximapper.TestSite.V10/appsettings.Local.json
+Anaximapper.TestSite.V10/App_Plugins/
+Anaximapper.TestSite.V10/data/
+Anaximapper.TestSite.V10/umbraco/
+Anaximapper.TestSite.V10/wwwroot/
 
 deploy.ps1

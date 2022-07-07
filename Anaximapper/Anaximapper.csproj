@@ -1,23 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <AssemblyName>Anaximapper</AssemblyName>
-    <RootNamespace>Anaximapper</RootNamespace>
-    <ContentTargetFolders>.</ContentTargetFolders>
-    <TargetFramework>net5.0</TargetFramework>
-    <PackageId>Anaximapper</PackageId>
-    <Version>1.0.1</Version>
-    <Authors>Andy Butland</Authors>
-    <Description>An Umbraco package supporting mapping of IPublishedContent/IPublishedElement to strongly typed view models.</Description>
-    <Copyright>2021 Andy Butland</Copyright>
-    <PackageProjectUrl>https://github.com/AndyButland/Anaximapper/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/AndyButland/Anaximapper/</RepositoryUrl>
-    <RepositoryType>Github</RepositoryType>
-    <PackageTags>Umbraco Umbraco-Marketplace</PackageTags>
-  </PropertyGroup>
+	<PropertyGroup>
+		<AssemblyName>Anaximapper</AssemblyName>
+		<Authors>Andy Butland</Authors>
+		<ContentTargetFolders>.</ContentTargetFolders>
+		<Copyright>2022 Andy Butland</Copyright>
+		<Description>An Umbraco package supporting mapping of IPublishedContent/IPublishedElement to strongly typed view models.</Description>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageId>Anaximapper</PackageId>
+		<PackageProjectUrl>https://github.com/AndyButland/Anaximapper/</PackageProjectUrl>
+		<PackageReadmeFile>NuGetReadMe.md</PackageReadmeFile>
+		<PackageTags>Umbraco Umbraco-Marketplace</PackageTags>
+		<RepositoryType>Github</RepositoryType>
+		<RepositoryUrl>https://github.com/AndyButland/Anaximapper/</RepositoryUrl>
+		<RootNamespace>Anaximapper</RootNamespace>
+		<TargetFramework>net5.0</TargetFramework>
+		<Version>1.0.3</Version>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Umbraco.Cms.Web.Common" Version="9.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Umbraco.Cms.Web.Common" Version="9.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="images\icon.png" Pack="true" PackagePath=""/>
+		<None Include="docs\NuGetReadMe.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 
 </Project>

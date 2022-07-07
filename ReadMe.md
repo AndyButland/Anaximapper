@@ -2,7 +2,9 @@
 
 ## Background
 
-Anaximapper is an Umbraco V9 port of [Umbraco Mapper](https://github.com/AndyButland/UmbracoMapper), which was originally developed to support a more pure MVC approach to building Umbraco applications.  Since it's development a number of other similar solutions have been released, including of course "models builder", now part of Umbraco core.
+Anaximapper is an Umbraco 9+ port of [Umbraco Mapper](https://github.com/AndyButland/UmbracoMapper), which was originally developed to support a more pure MVC approach to building Umbraco applications.  Since it's development a number of other similar solutions have been released, including of course "models builder", now part of Umbraco core.
+
+Umbraco versions 9.0 and up (including Umbraco 10) are supported.
 
 If your preferred approach to MVC with Umbraco though is to use route hijacking and construct page specific view models, rather than relying on the one-to-one mapping of document types to content models available with models builder, you may find Anaximapper a useful addition.  Via convention and configuration, you can have your view models automatically populated from Umbraco data, without having to manually map each property yourself.
 
@@ -62,9 +64,10 @@ void SetPropertyValue<T>(object fromObject, PropertyInfo property, T model, Mapp
 
 The `context` attribute provides access to the mapper as was available before, but now also available is the `HttpContext`, which will allow access to registered services via e.g. : `context.HttpContext.RequestServices.GetRequiredService<IImageUrlGenerator>();`.
 
-
 ## Version History
 
 - 1.0.0-beta-1 - Beta release of port to Umbraco V9.
 - 1.0.0 - Full release of port to Umbraco V9.
 - 1.0.1 - Added tag for Umbraco-Marketplace
+- 1.0.2 - Added icon
+- 1.0.3 - Added NuGet readme
