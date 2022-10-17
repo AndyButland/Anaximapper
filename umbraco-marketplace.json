@@ -1,26 +1,32 @@
 {
-    "Category": "Developer Tools",
-    "Tags": [
-        "MVC",
-        "mapping"
-    ],
-    "VideoUrl": "https://www.youtube.com/watch?v=zqNTltOGh5c",
-    "Screenshots": [
-        {
-            "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Anaximander_Mosaic_%28cropped%2C_with_sundial%29.jpg/220px-Anaximander_Mosaic_%28cropped%2C_with_sundial%29.jpg",
-            "Caption": "Anaximander - an early mapper"
-        }
-    ],
-    "LicenseType": "Free",
-    "RelatedPackages": [
-        {
-            "PackageId": "UmbracoPersonalisationGroups",
-            "Description": "This isn't really related by I need something for testing."
-        },
-        {
-            "PackageId": "Anaximapper",
-            "Description": "Doesn't make much sense to relate to self, but again, test data."
-        }
-    ],
-    "PackagesByAuthor": [ "UmbracoPersonalisationGroups" ]
+  "AuthorDetails": {
+    "Description": "Andy works at Umbraco HQ. This package is provided in a personal capacity.",
+    "Url": "https://andybutland.dev"
+  },
+  "Category": "CMS Extensions",
+  "LicenseType": "Free",
+  "PackageType": "Package",
+  "PackagesByAuthor": [ "UmbracoPersonalisationGroups" ],
+  "RelatedPackages": [
+    {
+      "PackageId": "UmbracoPersonalisationGroups",
+      "Description": "This isn't really related by I need something for testing."
+    },
+    {
+      "PackageId": "Anaximapper",
+      "Description": "Doesn't make much sense to relate to self, but again, test data."
+    }
+  ],
+  "Screenshots": [
+    {
+      "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Anaximander_Mosaic_%28cropped%2C_with_sundial%29.jpg/220px-Anaximander_Mosaic_%28cropped%2C_with_sundial%29.jpg",
+      "Caption": "Anaximander - an early mapper"
+    }
+  ],
+  "Tags": [
+    "MVC",
+    "mapping"
+  ],
+  "Umbraco8PackageId": "UmbracoMapper",
+  "VideoUrl": "https://www.youtube.com/watch?v=zqNTltOGh5c"
 }
