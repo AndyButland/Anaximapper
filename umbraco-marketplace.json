@@ -29,6 +29,11 @@
     "MVC",
     "mapping"
   ],
-  "Umbraco8PackageId": "UmbracoMapper",
+  "VersionSpecificPackageIds": [
+    {
+      "UmbracoMajorVersion": 8,
+      "PackageId": "UmbracoMapper"
+    }
+  ],
   "VideoUrl": "https://www.youtube.com/watch?v=zqNTltOGh5c"
 }
