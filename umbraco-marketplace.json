@@ -3,7 +3,19 @@
   "AuthorDetails": {
     "Description": "Andy works at Umbraco HQ. This package is provided in a personal capacity.",
     "Url": "https://andybutland.dev",
-    "ImageUrl": "https://umbraco.com/media/uttnxec4/andy_butland_02-square.jpg"
+    "ImageUrl": "https://umbraco.com/media/uttnxec4/andy_butland_02-square.jpg",
+    "Contributors": [
+      {
+        "Name": "Neil Cumpstey"
+      },
+      {
+        "Name": "Ali Taheri",
+        "Url": "https://twitter.com/AliSheikhTaheri"
+      },
+      {
+        "Name": "Robin Herd"
+      }
+    ]
   },
   "Category": "CMS Extensions",
   "LicenseType": "Free",
