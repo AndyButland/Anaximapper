@@ -17,7 +17,7 @@
       }
     ]
   },
-  "Category": "CMS Extensions",
+  "Category": "Developer Tools",
   "LicenseType": "Free",
   "IssueTrackerUrl": "https://github.com/AndyButland/Anaximapper/issues",
   "IsSubPackageOf": "UmbracoPersonalisationGroups",
