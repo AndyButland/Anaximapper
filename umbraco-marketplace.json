@@ -18,7 +18,7 @@
     ]
   },
   "Category": "Developer Tools",
-  "LicenseTypes": [ "Free" ],
+  "LicenseTypes": [ "Free", "Purchase" ],
   "IssueTrackerUrl": "https://github.com/AndyButland/Anaximapper/issues",
   "PackageType": "Package",
   "PackagesByAuthor": [ "UmbracoPersonalisationGroups" ],
