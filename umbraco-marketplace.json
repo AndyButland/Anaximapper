@@ -18,6 +18,7 @@
     ]
   },
   "Category": "Developer Tools",
+  "DocumentationUrl": "https://github.com/AndyButland/Anaximapper/blob/main/ReadMe.md",
   "LicenseTypes": [ "Free", "Purchase" ],
   "IssueTrackerUrl": "https://github.com/AndyButland/Anaximapper/issues",
   "PackageType": "Package",
