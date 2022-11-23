@@ -23,6 +23,12 @@
   "IssueTrackerUrl": "https://github.com/AndyButland/Anaximapper/issues",
   "PackageType": "Package",
   "PackagesByAuthor": [ "UmbracoPersonalisationGroups" ],
+  "RelatedPackages": [
+    {
+      "PackageId": "UmbracoPersonalisationGroups",
+      "Description": "Test relation"
+    }
+  ],
   "Tags": [
     "MVC",
     "mapping"
