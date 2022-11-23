@@ -23,12 +23,6 @@
   "IssueTrackerUrl": "https://github.com/AndyButland/Anaximapper/issues",
   "PackageType": "Package",
   "PackagesByAuthor": [ "UmbracoPersonalisationGroups" ],
-  "RelatedPackages": [
-    {
-      "PackageId": "Umbraco.Forms",
-      "Description": "Test relation 2 updated"
-    }
-  ],
   "Tags": [
     "MVC",
     "mapping"
