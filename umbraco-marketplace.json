@@ -25,8 +25,8 @@
   "PackagesByAuthor": [ "UmbracoPersonalisationGroups" ],
   "RelatedPackages": [
     {
-      "PackageId": "UmbracoPersonalisationGroups",
-      "Description": "Test relation"
+      "PackageId": "Umbraco.Forms",
+      "Description": "Test relation 2"
     }
   ],
   "Tags": [
