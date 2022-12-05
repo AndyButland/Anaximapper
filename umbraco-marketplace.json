@@ -24,7 +24,6 @@
   "LicenseTypes": [ "Free", "Purchase" ],
   "IssueTrackerUrl": "https://github.com/AndyButland/Anaximapper/issues",
   "PackageType": "Package",
-  "PackagesByAuthor": [ "UmbracoPersonalisationGroups" ],
   "Tags": [
     "MVC",
     "mapping"
