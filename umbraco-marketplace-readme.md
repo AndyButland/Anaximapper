@@ -1,0 +1,5 @@
+Anaximapper is an Umbraco 9+ port of Umbraco Mapper, which was developed to support a more pure MVC approach to building Umbraco applications. Since it's development a number of other similar solutions have been released, including of course "models builder", now part of Umbraco core.
+
+If your preferred approach to MVC with Umbraco though is to use route hijacking and construct page specific view models, rather than relying on the one-to-one mapping of document types to content models available with models builder, you may find Anaximapper a useful addition. Via convention and configuration, you can have your view models automatically populated from Umbraco data, without having to manually map each property yourself.
+
+Read more details, installation and usage instructions and review the code at the [GitHub repository](https://github.com/AndyButland/Anaximapper).
