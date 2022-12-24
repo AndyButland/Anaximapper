@@ -207,5 +207,10 @@ Anaximapper.TestSite.V10/App_Plugins/
 Anaximapper.TestSite.V10/data/
 Anaximapper.TestSite.V10/umbraco/
 Anaximapper.TestSite.V10/wwwroot/
+Anaximapper.TestSite.V11/appsettings.Local.json
+Anaximapper.TestSite.V11/App_Plugins/
+Anaximapper.TestSite.V11/data/
+Anaximapper.TestSite.V11/umbraco/
+Anaximapper.TestSite.V11/wwwroot/
 
 deploy.ps1
