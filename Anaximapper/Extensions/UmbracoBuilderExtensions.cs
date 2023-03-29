@@ -10,6 +10,8 @@
             builder.Services.AddUnique<IPublishedContentMapper, PublishedContentMapper>();
             builder.Services.AddUnique<IPropertyValueGetter, DefaultPropertyValueGetter>();
 
+            builder.ManifestFilters().Append<PackageManifestFilter>();
+
             return builder;
         }
     }

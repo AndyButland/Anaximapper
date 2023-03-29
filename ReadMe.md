@@ -71,3 +71,4 @@ The `context` attribute provides access to the mapper as was available before, b
 - 1.0.1 - Added tag for Umbraco-Marketplace
 - 1.0.2 - Added icon
 - 1.0.3 - Added NuGet readme
+- 1.0.4 - Added package manifest filter
