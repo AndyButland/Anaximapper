@@ -19,6 +19,7 @@
     ]
   },
   "Category": "Developer Tools",
+  "Alternate Category": "Editor Tools",
   "Description": "A library designed for developers using MVC and route hijacking approaches to their Umbraco applications, supporting mapping of IPublishedContent/IPublishedElement to strongly typed view models.",
   "DocumentationUrl": "https://github.com/AndyButland/Anaximapper/blob/main/ReadMe.md",
   "LicenseTypes": [ "Free" ],
