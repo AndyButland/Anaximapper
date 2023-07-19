@@ -1,0 +1,22 @@
+﻿@model Anaximapper.TestSite.Models.NewsLandingPageViewModel
+    
+<h1>Recursive title: @Model.Title</h1>
+
+<h2>@Model.Heading</h2>
+
+<h3>Top Story</h3>
+
+<h4>@Model.TopStory.Headline</h4>
+
+@Model.TopStory.BodyText
+<div><em>@Model.TopStory.StoryDate</em></div>
+
+<h3>Other Stories</h3>
+
+@foreach (var story in Model.OtherStories)
+{
+    <h4>@story.Headline</h4>
+
+    @story.BodyText
+    <div><em>@story.StoryDate</em></div>    
+}

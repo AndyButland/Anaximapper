@@ -4,7 +4,7 @@
 		<AssemblyName>Anaximapper</AssemblyName>
 		<Authors>Andy Butland</Authors>
 		<ContentTargetFolders>.</ContentTargetFolders>
-		<Copyright>2022 Andy Butland</Copyright>
+		<Copyright>2023 Andy Butland</Copyright>
 		<Description>An Umbraco package supporting mapping of IPublishedContent/IPublishedElement to strongly typed view models.</Description>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageId>Anaximapper</PackageId>
@@ -15,11 +15,11 @@
 		<RepositoryUrl>https://github.com/AndyButland/Anaximapper/</RepositoryUrl>
 		<RootNamespace>Anaximapper</RootNamespace>
 		<TargetFramework>net5.0</TargetFramework>
-		<Version>1.0.4</Version>
+		<Version>1.0.5</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Umbraco.Cms.Web.Common" Version="[9.0.0,12)" />
+		<PackageReference Include="Umbraco.Cms.Web.Common" Version="[9.0.0, 13)" />
 	</ItemGroup>
 
 	<ItemGroup>

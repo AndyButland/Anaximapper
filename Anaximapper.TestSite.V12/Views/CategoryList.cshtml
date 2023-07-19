@@ -1,0 +1,14 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Anaximapper.TestSite.Models.CategoryListViewModel>
+
+@{
+	Layout = null;
+}
+
+<h1>Categories</h1>
+
+<p>Category count: @Model.PickedCategories.Count()</p>
+
+@foreach(var category in Model.PickedCategories)
+{
+	<div>@category.Name - @category.CategoryName</div>
+}

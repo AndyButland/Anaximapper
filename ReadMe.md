@@ -4,9 +4,11 @@
 
 Anaximapper is an Umbraco 9+ port of [Umbraco Mapper](https://github.com/AndyButland/UmbracoMapper), which was originally developed to support a more pure MVC approach to building Umbraco applications.  Since it's development a number of other similar solutions have been released, including of course "models builder", now part of Umbraco core.
 
-Umbraco versions 9.0 and up (including Umbraco 10) are supported.
+Umbraco versions 9, 10, 11 and 12 are supported.
 
 If your preferred approach to MVC with Umbraco though is to use route hijacking and construct page specific view models, rather than relying on the one-to-one mapping of document types to content models available with models builder, you may find Anaximapper a useful addition.  Via convention and configuration, you can have your view models automatically populated from Umbraco data, without having to manually map each property yourself.
+
+It's available on [NuGet](https://www.nuget.org/packages/Anaximapper) and listed on the [Umbraco Marketplace](https://marketplace.umbraco.com/package/anaximapper).
 
 ## Why Anaximapper?
 
@@ -16,7 +18,7 @@ Well, I needed a new name... and this is what I came up with!  Since the release
 
 ## Installing Anaximapper
 
-With an Umbraco 9 project, add the NuGet package via `dotnet add package Anaximapper --version 1.0.0-beta-1`.
+With an Umbraco 9+ project, add the NuGet package via `dotnet add package Anaximapper`.
 
 Add the `AddAnanximapper()` extension method call to following to your `StartUp.cs` file in the `ConfigureServices()` method, e.g.:
 
@@ -68,7 +70,8 @@ The `context` attribute provides access to the mapper as was available before, b
 
 - 1.0.0-beta-1 - Beta release of port to Umbraco V9.
 - 1.0.0 - Full release of port to Umbraco V9.
-- 1.0.1 - Added tag for Umbraco-Marketplace
-- 1.0.2 - Added icon
-- 1.0.3 - Added NuGet readme
-- 1.0.4 - Added package manifest filter
+- 1.0.1 - Added tag for Umbraco-Marketplace.
+- 1.0.2 - Added icon.
+- 1.0.3 - Added NuGet readme.
+- 1.0.4 - Added package manifest filter.
+- 1.0.5 - Extended maxmium Umbraco dependency to include Umbraco 12.

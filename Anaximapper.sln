@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anaximapper.TestSite.V10", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anaximapper.TestSite.V11", "Anaximapper.TestSite.V11\Anaximapper.TestSite.V11.csproj", "{009F0D42-7A08-4FDF-9612-B08E90CA7BD5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anaximapper.TestSite.V12", "Anaximapper.TestSite.V12\Anaximapper.TestSite.V12.csproj", "{18C68C9B-7181-4180-9FF5-F275FBB93CFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{009F0D42-7A08-4FDF-9612-B08E90CA7BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{009F0D42-7A08-4FDF-9612-B08E90CA7BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{009F0D42-7A08-4FDF-9612-B08E90CA7BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C68C9B-7181-4180-9FF5-F275FBB93CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C68C9B-7181-4180-9FF5-F275FBB93CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C68C9B-7181-4180-9FF5-F275FBB93CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C68C9B-7181-4180-9FF5-F275FBB93CFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
