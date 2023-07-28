@@ -24,26 +24,6 @@
   "LicenseTypes": [ "Free" ],
   "IssueTrackerUrl": "https://github.com/AndyButland/Anaximapper/issues",
   "PackageType": "Package",
-  "RelatedPackages": [
-    {
-      "PackageId": "Absurd.Umbraco.OpenAI",
-      "Description": "Test related package one",
-      "GroupTitle": "Test Group One"
-    },
-    {
-      "PackageId": "Akismet.Umbraco",
-      "Description": "Test related package two"
-    },
-    {
-      "PackageId": "Arjo.UmbracoBackOfficeEditorView",
-      "Description": "Test related package three",
-      "GroupTitle": "Test Group Two"
-    },
-    {
-      "PackageId": "AutoDictionaries",
-      "Description": "Test related package four"
-    }    
-  ],  
   "Tags": [
     "MVC",
     "mapping"
