@@ -25,12 +25,6 @@
   "LookingForContributors": true,
   "IssueTrackerUrl": "https://github.com/AndyButland/Anaximapper/issues",
   "PackageType": "Package",
-  "Screenshots": [
-    {
-      "ImageUrl": "https://www.gstatic.com/webp/gallery/1.sm.webp",
-      "Caption": "A test webp image."
-    }
-  ],
   "Tags": [
     "MVC",
     "mapping"
