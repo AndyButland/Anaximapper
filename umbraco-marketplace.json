@@ -27,7 +27,8 @@
   "PackageType": "Package",
   "Tags": [
     "MVC",
-    "mapping"
+    "mapping",
+    "view models"
   ],
   "VersionSpecificPackageIds": [
     {
