@@ -30,6 +30,7 @@
     "mapping",
     "view models"
   ],
+  "VersionDependencyMode": "SemVer",
   "VersionSpecificPackageIds": [
     {
       "UmbracoMajorVersion": 8,
